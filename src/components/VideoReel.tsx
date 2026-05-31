@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState, } from 'react';
 import { motion } from 'framer-motion';
 import { Heart } from 'lucide-react';
 import { videoReels } from '../data/mockData';

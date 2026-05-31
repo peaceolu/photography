@@ -11,12 +11,10 @@ import Lightbox from '../components/Lightbox';
 
 const Home = () => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
-  const [selectedImage, setSelectedImage] = useState('');
   const [imageList, setImageList] = useState<string[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleImageClick = (url: string, allImages?: string[]) => {
-    setSelectedImage(url);
     if (allImages) {
       setImageList(allImages);
       setCurrentIndex(allImages.indexOf(url));
@@ -26,6 +24,7 @@ const Home = () => {
     }
     setLightboxOpen(true);
   };
+ 
 
   return (
     <>

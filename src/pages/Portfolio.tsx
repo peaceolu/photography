@@ -3,10 +3,8 @@ import PortfolioFilter from '../components/PortfolioFilter';
 import Lightbox from '../components/Lightbox';
 import { portfolioItems } from '../data/mockData';
 import ScrollReveal from '../components/ScrollReveal';
-
 const Portfolio = () => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
-  const [selectedImage, setSelectedImage] = useState('');
   const [imageList, setImageList] = useState<string[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -16,7 +14,7 @@ const Portfolio = () => {
     setCurrentIndex(allImages.indexOf(url));
     setLightboxOpen(true);
   };
-
+  
   return (
     <>
       <ScrollReveal>

@@ -1,11 +1,11 @@
 export const carouselImages = [
-  { id: 1, url: 'https://images.unsplash.com/photo-1537633552989-db8420fe8e6f?w=600&h=400&fit=crop', type: 'image', title: 'Golden Hour' },
+  { id: 1, url: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&h=400&fit=crop', type: 'image', title: 'Golden Hour' },
   { id: 2, url: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=400&fit=crop', type: 'image', title: 'Wedding Moments' },
   { id: 3, url: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&h=400&fit=crop', type: 'image', title: 'Creative Portrait' },
-  { id: 4, url: 'https://images.unsplash.com/photo-1464054313797-e27fb58e90a9?w=600&h=400&fit=crop', type: 'image', title: "Nature's Beauty" },
+  { id: 4, url: 'https://images.unsplash.com/photo-1464054313797-e27fb58e90a9?w=600&h=400&fit=crop', type: 'image', title: "Nature beauty" },
   { id: 5, url: 'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=600&h=400&fit=crop', type: 'image', title: 'Urban Life' },
   { id: 6, url: 'https://images.unsplash.com/photo-1470071459604-3b5ec3f7fe05?w=600&h=400&fit=crop', type: 'image', title: 'Dreamscape' },
-  { id: 7, url: 'https://images.unsplash.com/photo-1484950763426-56b5a472365b?w=600&h=400&fit=crop', type: 'image', title: 'Architecture' },
+  { id: 7, url: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&h=400&fit=crop', type: 'image', title: 'Architecture' },
   { id: 8, url: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop', type: 'image', title: 'Mountain Peaks' },
   { id: 9, url: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&h=400&fit=crop', type: 'image', title: 'Forest Light' },
   { id: 10, url: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&h=400&fit=crop', type: 'image', title: 'Ocean Views' },
@@ -29,8 +29,9 @@ export const testimonials = [
   { id: 4, name: 'David Kim', role: 'CEO', image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop', text: 'Professional, creative, and timely. Best photography agency we have worked with.' },
 ];
 
+
 export const videoReels = [
-  { id: 1, url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4', likes: 1234 },
-  { id: 2, url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4', likes: 2345 },
-  { id: 3, url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFunflies.mp4', likes: 3456 },
+  { id: 1, url: 'https://videos.pexels.com/video-files/3571264/3571264-uhd_2560_1440_30fps.mp4', likes: 1234 },
+  { id: 2, url: 'https://videos.pexels.com/video-files/3571264/3571264-uhd_2560_1440_30fps.mp4', likes: 2345 },
+  { id: 3, url: 'https://videos.pexels.com/video-files/3571264/3571264-uhd_2560_1440_30fps.mp4', likes: 3456 },
 ];
