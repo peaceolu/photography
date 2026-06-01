@@ -47,14 +47,14 @@ const Hero = () => {
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
          <button
-  className="btn-primary flex items-center gap-2 group text-center"
+  className="btn-primary flex items-center gap-2 group text-center justify-center"
   onClick={() => document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' })}
 >
   View Portfolio <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
 </button>
 
 <button
-  className="btn-secondary flex items-center gap-2 text-center"
+  className="btn-secondary flex items-center gap-2 justify-center"
   onClick={() => document.getElementById('reels')?.scrollIntoView({ behavior: 'smooth' })}
 >
   <Play size={18} /> Watch Showreel

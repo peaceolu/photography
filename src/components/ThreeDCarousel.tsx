@@ -118,7 +118,7 @@ const ThreeDCarousel = ({ onImageClick }: ThreeDCarouselProps) => {
       </div>
 
       {/* Controls */}
-      <div className="flex items-center gap-4 mt-4">
+      <div className="flex items-center gap-4 mt-4 pb-15">
         <button onClick={() => snapTo(-1)} className="w-9 h-9 rounded-full border border-border flex items-center justify-center hover:bg-muted transition">‹</button>
         <button onClick={togglePause} className="w-9 h-9 rounded-full border border-border flex items-center justify-center hover:bg-muted transition">
           {paused ? '▶' : '⏸'}
