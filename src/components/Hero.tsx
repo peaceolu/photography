@@ -3,7 +3,7 @@ import { ArrowRight, Play } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-15">
       {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-background dark:from-primary/10 dark:via-gray-900 dark:to-gray-900" />
       
@@ -46,24 +46,17 @@ const Hero = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
-          <button className="btn-primary flex items-center gap-2 group">
+          <button className="btn-primary flex items-center gap-2 group text-center">
             View Portfolio <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
           </button>
-          <button className="btn-secondary flex items-center gap-2">
+          <button className="btn-secondary flex items-center gap-2 text-center" >
             <Play size={18} /> Watch Showreel
           </button>
         </motion.div>
 
         {/* Floating Annotations */}
         
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.7, type: 'spring' }}
-          className="absolute bottom-1/3 left-5 lg:left-20 bg-white dark:bg-gray-800 shadow-lg rounded-full px-4 py-2 text-sm font-medium"
-        >
-           Elevate your brand
-        </motion.div>
+      
       </div>
     </section>
   );
