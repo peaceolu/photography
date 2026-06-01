@@ -34,7 +34,7 @@ const Navbar = () => {
       >
         <div className="container-custom flex items-center justify-between h-20">
           <Link to="/" className="text-2xl font-heading font-bold text-primary">
-            Brandlyft
+            ImaPho
           </Link>
 
           {/* Desktop Navigation */}

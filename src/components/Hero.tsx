@@ -18,7 +18,7 @@ const Hero = () => {
           transition={{ duration: 0.6 }}
           className="inline-block px-4 py-2 bg-primary/10 rounded-full mb-6"
         >
-          <span className="text-primary font-medium">✨ Trusted by 100,000+ creators</span>
+          <span className="text-primary font-medium">Trusted by 100,000+ creators</span>
         </motion.div>
 
         <motion.h1
@@ -55,21 +55,14 @@ const Hero = () => {
         </motion.div>
 
         {/* Floating Annotations */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.5, type: 'spring' }}
-          className="absolute top-1/4 right-5 lg:right-20 bg-white dark:bg-gray-800 shadow-lg rounded-full px-4 py-2 text-sm font-medium"
-        >
-          ✨ It's free
-        </motion.div>
+        
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.7, type: 'spring' }}
           className="absolute bottom-1/3 left-5 lg:left-20 bg-white dark:bg-gray-800 shadow-lg rounded-full px-4 py-2 text-sm font-medium"
         >
-          🚀 Elevate your brand
+           Elevate your brand
         </motion.div>
       </div>
     </section>

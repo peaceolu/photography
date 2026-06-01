@@ -44,7 +44,7 @@ const ContactForm = () => {
                 <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
                   <Send size={18} className="text-primary" />
                 </div>
-                <span>hello@brandlyft.com</span>
+                <span>contact@ImaPho.com</span>
               </div>
             </div>
           </motion.div>
