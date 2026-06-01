@@ -92,7 +92,7 @@ const ThreeDCarousel = ({ onImageClick }: ThreeDCarouselProps) => {
           className="relative"
           style={{ transformStyle: 'preserve-3d', width: 0, height: 0 }}
         >
-          {carouselImages.map((item, i) => (
+          {carouselImages.map((item, ) => (
             <div
               key={item.id}
               className="carousel-card absolute w-[200px] h-[260px] rounded-2xl overflow-hidden border border-white/15 transition-shadow duration-300"
