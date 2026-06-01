@@ -16,16 +16,16 @@ import video3 from '../assets/video3.mp4'
 
 
 export const carouselImages = [
-  { id: 1, url: img1, type: 'image', title: 'Golden Hour' },
+  { id: 1, url: img1, type: 'image', title: 'Portrait' },
   { id: 2, url: img2, type: 'image', title: 'Wedding Moments' },
-  { id: 3, url: img3, type: 'image', title: 'Creative Portrait' },
-  { id: 4, url: img4, type: 'image', title: "Nature beauty" },
-  { id: 5, url: img5, type: 'image', title: 'Urban Life' },
-  { id: 6, url: img6, type: 'image', title: 'Dreamscape' },
-  { id: 7, url: img7, type: 'image', title: 'Architecture' },
-  { id: 8, url: img8, type: 'image', title: 'Mountain Peaks' },
-  { id: 9, url: img9, type: 'image', title: 'Forest Light' },
-  { id: 10, url: img10, type: 'image', title: 'Ocean Views' },
+  { id: 3, url: img3, type: 'image', title: 'Love Moment' },
+  { id: 4, url: img4, type: 'image', title: "Love Life" },
+  { id: 5, url: img5, type: 'image', title: 'Wedding Moments' },
+  { id: 6, url: img6, type: 'image', title: 'Wedding' },
+  { id: 7, url: img7, type: 'image', title: 'Convocation' },
+  { id: 8, url: img8, type: 'image', title: 'Graduation' },
+  { id: 9, url: img9, type: 'image', title: 'Joyful Moment' },
+  { id: 10, url: img10, type: 'image', title: 'Convocation' },
 ];
 
 export const portfolioItems = [
