@@ -15,7 +15,7 @@ const FeaturedGrid = ({ onImageClick }: FeaturedGridProps) => {
     : portfolioItems.filter(item => item.category === activeCategory);
 
   return (
-    <section className="py-20 bg-white dark:bg-gray-800">
+    <section className="py-20 bg-white dark:bg-gray-800" id='portfolio'>
       <div className="container-custom">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

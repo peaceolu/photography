@@ -11,7 +11,7 @@ const VideoReel = () => {
   };
 
   return (
-    <section className="py-20 bg-background dark:bg-gray-900">
+    <section className="py-20 bg-background dark:bg-gray-900" id='reels'>
       <div className="container-custom">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

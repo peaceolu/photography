@@ -46,12 +46,19 @@ const Hero = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
-          <button className="btn-primary flex items-center gap-2 group text-center">
-            View Portfolio <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-          </button>
-          <button className="btn-secondary flex items-center gap-2 text-center" >
-            <Play size={18} /> Watch Showreel
-          </button>
+         <button
+  className="btn-primary flex items-center gap-2 group text-center"
+  onClick={() => document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' })}
+>
+  View Portfolio <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+</button>
+
+<button
+  className="btn-secondary flex items-center gap-2 text-center"
+  onClick={() => document.getElementById('reels')?.scrollIntoView({ behavior: 'smooth' })}
+>
+  <Play size={18} /> Watch Showreel
+</button>
         </motion.div>
 
         {/* Floating Annotations */}

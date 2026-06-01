@@ -15,7 +15,7 @@ const PortfolioFilter = ({ onImageClick }: PortfolioFilterProps) => {
     : portfolioItems.filter(item => item.category === activeCategory);
 
   return (
-    <section className="py-20">
+    <section className="py-20" id="portfolio">
       <div className="container-custom">
         <div className="flex flex-wrap justify-center gap-3 mb-10">
           {categories.map((category) => (
